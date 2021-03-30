@@ -1,0 +1,30 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header-container{
+    height: 300px;
+    width: 100%;
+    background: url(../imgs/back.jpg) center bottom fixed;
+    background-size: cover;
+}
+.header-container h1{
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    padding-top: 70px;
+    font-size: 5.5em;
+    font-weight: 400;
+    color: #ffffff;
+}
+.header-container h4{
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    font-size: 1.8em;
+    font-weight: 400;
+    color: rgb(44, 195, 255);
+}
