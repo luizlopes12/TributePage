@@ -179,7 +179,50 @@ footer a{
     .imagem img{
         margin: 20px auto;
         height: 330px;
-        border: 5px dashed #000;
+        border: 2px dashed #000;
         border-radius: 20px;
+    }
+    .timeline{
+        width: 100%;
+        margin: auto;
+        border-radius: 0;
+        height: 1500px;
+    }
+    .timeline h2{
+        text-align: center;
+        width: 300px;
+        margin: auto;
+        color: #2e2e2e;
+        padding: 40px;
+        padding-top: 70px;
+        font-size: 1.2em;
+        font-weight: 400;
+        
+    }
+    .timeline ul{
+        list-style: none;
+    }
+    .timeline li{
+        font-size: 1.2em;
+    }
+    .timeline p{
+        background-color: #c7c7c7;
+        width: 95%;
+        margin-top: 25px;
+        padding-left: 15px;
+        padding-right: 20px;
+        font-weight: bolder;
+        border-radius: 15px;
+        line-height: 40px;
+        
+    }
+    .timeline span{
+        background-color: rgb(44, 195, 255);
+        width: 800px;
+        height: 40px;
+        font-weight: 900;
+        padding: 18px;
+        border-radius: 15px;
+        line-height: 40px;
     }
 }
